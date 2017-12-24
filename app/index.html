@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat Box-Socket.io</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">Chat Box</div>
+		<div id="msgarea">
+			<div id="output"></div>
+			<span id="typing"></span>
+		</div>
+		<div class="inputPart">
+			<label>Sender:</label>
+			<input id="sender" type="text" placeholder="Your name..."></input>
+		</div>
+		<div class="inputPart">
+			<label>Message:</label>
+			<input id="message" type="text" placeholder="Type message here..."></input>
+		</div>
+		<button id="send">SEND</button>
+	</div>
+	<script type="text/javascript" src="client.js"></script>
+</body>
+</html>
